@@ -1,7 +1,10 @@
 field,display_name,btn,hidden,sort_name,facet_name
+objectid,Object ID,,,,
+title,Title,,,
 date,Date,,,Date Created
-description,,,true,
 creator,Creator,,,
-subject,,true
-location,,true,,,Location Depicted
-identifier,,,true,Identifier
+description,Description,,,Description
+format,Format,,,
+image_small,Image Small,,true,,
+image_thumb,Image Thumb,,true,,
+object_transcript,Transcript,,,

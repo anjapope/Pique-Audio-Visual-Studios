@@ -30,9 +30,9 @@ module CollectionBuilderHelperGenerator
 
       # get featured image config from "theme.yml"
       if site.data["theme"]
-        featured_image = site.data['theme']['featured-image'] || "/assets/img/collectionbuilder-logo.png"
+  featured_image = site.data['theme']['featured-image']
       else 
-        featured_image = "/assets/img/collectionbuilder-logo.png"
+  featured_image = nil
         puts color_text("Error cb_helpers: your project does not contain a '_data/theme.yml'. The template will use default values.", :yellow)
       end
       if featured_image.include? "/"

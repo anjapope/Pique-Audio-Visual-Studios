@@ -1,7 +1,7 @@
 ##########
-# collectionbuilder-csv
+# piqueaudiovisual-csv
 # Jekyll Digital Collection Generator
-# https://github.com/CollectionBuilder/collectionbuilder-csv
+# https://github.com/anjapope/Pique-Audio-Visual-Studios
 ##########
 
 ##########
@@ -12,8 +12,7 @@ url:
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: 
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
-
+source-code: https://github.com/anjapope/Pique-Audio-Visual-Studios 
 ##########
 # SITE SETTINGS
 #
@@ -27,14 +26,14 @@ description: "Pique Audio Visual is a multimedia production company that brings 
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: pique; audio; visual; comic; comics; music; rock; storytelling
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: Pique Audio Visual
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-compoundobjects-metadata 
+metadata: PiqueAudioVisual_Main_csv_urls
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -53,8 +52,8 @@ metadata: demo-compoundobjects-metadata
 organization-name: "Pique Audio Visual"
 organization-link: https://piqueaudio.com/
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
-organization-logo-banner: 
-organization-logo-nav: 
+organization-logo-banner: /assets/img/PiqueLogo.gif
+organization-logo-nav: /assets/img/PiqueLogo.gif
 
 ##########
 # ROBOTS EXCLUDE
