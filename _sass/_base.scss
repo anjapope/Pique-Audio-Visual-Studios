@@ -59,8 +59,11 @@ a {
 }
 
 /* banner */
-#home-banner-logo { 
-    height: 80px; 
+#home-banner-logo {
+    height: 80px;
+    min-height: 40px;
+    border: 2px solid red;
+    background: rgba(255,0,0,0.1);
 }
 
 /* nav bar */
